@@ -9,9 +9,16 @@ buildTypes {
             minifyEnabled false
         }
 
-    }
-    flavorDimensions "default"
+}
+flavorDimensions "default"
+productFlavors{
+     black{
 
+     }
+     blue{
+
+     }
+}
 
 buildscript {
     repositories {
