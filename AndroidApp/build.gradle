@@ -1,25 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
-buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        dev{
-            minifyEnabled false
-        }
-
-}
-flavorDimensions "default"
-productFlavors{
-     black{
-
-     }
-     blue{
-
-     }
-}
-
 buildscript {
     repositories {
         google()
