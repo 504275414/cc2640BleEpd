@@ -1,4 +1,18 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        dev{
+            minifyEnabled false
+        }
+
+    }
+    flavorDimensions "default"
+
+
 buildscript {
     repositories {
         google()
@@ -8,6 +22,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:4.0.0'
     }
 }
+
 
 allprojects {
     repositories {
